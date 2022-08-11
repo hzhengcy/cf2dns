@@ -20,7 +20,7 @@ KEY = os.environ["KEY"]  #"o1zrmHAF"
 #CM:移动 CU:联通 CT:电信 AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
 DOMAINS = {
-    "myhost.pub": {"@": ["CM","CU","CT"], "data": ["CM","CU","CT"]}
+    "myhost.pub": {"data": ["CM","CU","CT"]}
 }
 #DOMAINS = json.loads(os.environ["DOMAINS")  #{"hostmonit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},"4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}}
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
